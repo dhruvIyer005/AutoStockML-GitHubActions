@@ -22,7 +22,7 @@ def main():
     model.fit(np.array(X), np.array(y))
 
     joblib.dump(model, "model.joblib")
-    print("Model trained and saved successfully.")
+    print("Model trained and saved successfully!!!!.")
 
 
 if __name__ == "__main__":
